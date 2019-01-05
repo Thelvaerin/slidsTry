@@ -19,7 +19,7 @@ Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming 
 
         <?php
         echo "pokud se chcete o cokoliv podělit je zde formulář.";
-        include 'parts/contact/contact.php';
+        include 'contact/contact.php';
         ?>
 
     </aside>

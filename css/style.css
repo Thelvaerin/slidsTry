@@ -16,7 +16,6 @@ body{
     font-family: ANVIL;
 }
 .container {
-    cursor: pointer;
     width: 80%;
     margin: auto;
     overflow: hidden;
@@ -24,6 +23,7 @@ body{
 }
 
 #navbar{
+    cursor: pointer;
     background-color: ghostwhite;
     color: black;
     font-family: Anvil;
@@ -44,6 +44,7 @@ body{
     font-size: 15px;
     padding-right: 15px;
 }
+
 #main{
     float: left;
     width: 70%;
@@ -51,9 +52,24 @@ body{
     box-sizing: border-box;
 }
 
-#sidebar{
+#main-shisha {
+    float: left;
+    width: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#sidebar {
     float: right;
     width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#sidebar-shisha {
+    float: right;
+    width: 40%;
     padding: 10px;
     box-sizing: border-box;
     text-align: center;
@@ -71,16 +87,26 @@ body{
     min-height: 200px;
     margin-bottom: 50px;
     padding-top: 20px;
+    position: relative;
 }
 
-#showcase h2{
-    font-family: ANVIL;
+#showcase p{
+    display: block;
+    transition: opacity 1s;
+    opacity: 0;
+    width: 100%;
+    font-family: Anvil;
     font-style: italic;
     color: white;
     text-shadow: -2px 0 black,0 2px black,2px 0 black,0 -2px black;
     font-size: 30px;
 
 }
+.showcase-element{
+    position: absolute;
+    opacity: 1;
+}
+
 #main-footer{
     background: black;
     color: white;
